@@ -9,7 +9,7 @@ function Footer() {
                     </li>
 
                     <li className="nav-item p-2">
-                        <a className="nav-link active" href="#">LinkedLn</a>
+                        <a className="nav-link active" href="#">LinkedIn</a>
                     </li>
 
                     <li className="nav-item p-2">
