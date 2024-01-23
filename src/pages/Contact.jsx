@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const Contact = () => {
     return (
-        <>
+        <div className='contact-component'>
             <Header />
             <form>
                 <div className='form-section'>
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
             </form>
             <Footer />
-        </>
+        </div>
     )
 }
 
