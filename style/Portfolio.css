@@ -3,6 +3,8 @@
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     gap: 2rem;
     justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 20px;
 }
 
 .cardImage {
@@ -19,12 +21,21 @@
 }
 
 .card {
-    margin-left: 20px;
     border: 2px solid black;
+    background: transparent;
+    color: #fff;
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.cardDescription {
+    text-align: center;
 }
 
 .port-component {
-    background-image: url(../src/backgrounds/graybackground.png); 
+    background-image: url(../src/backgrounds/graybackground.png);
     background-size: cover;
     background-position: center;
 }
@@ -38,6 +49,9 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding:5px;
+    width:10vw;
+    text-align: center;
 }
 
 .portfolioBtn {
