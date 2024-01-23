@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
+import '../../style/Navigation.css'
 
 // Navigation bar 
 function Navigation() {
@@ -10,18 +11,18 @@ function Navigation() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>About Me
+                            <Link id='nav-link' to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>About Me
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Portfolio" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
+                            <Link id='nav-link' to="/Portfolio" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Contact" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Contact
+                            <Link id='nav-link' to="/Contact" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Contact
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Resume" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Resume</Link>
+                            <Link id='nav-link' to="/Resume" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Resume</Link>
                         </li>
                     </ul>
                 </div>
